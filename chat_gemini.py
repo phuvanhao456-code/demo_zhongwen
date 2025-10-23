@@ -91,3 +91,4 @@ if st.button("Xóa lịch sử chat"):
     if os.path.exists("chat_history.json"):
         os.remove("chat_history.json")
     st.rerun()
+
